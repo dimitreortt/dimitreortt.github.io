@@ -3,14 +3,14 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Dimitre Ortt
 
 # Short bio or description (displayed in the header)
 description: FullStack Web Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
+#avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://raw.githubusercontent.com/dimitreortt/dimitreortt.github.io/master/images/linkedin.jpg
 #
 # Flags below are optional
 #
