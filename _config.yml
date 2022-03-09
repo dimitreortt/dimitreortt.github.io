@@ -52,14 +52,14 @@ footer-links-active:
   reddit: false
   linkedin: true
   xing: false
-  telegram: true
+  telegram: false
   stackoverflow: false
   snapchat: false
   instagram: true
   youtube: false
   spotify: false
   telephone: false
-  couchsurfing: true
+  couchsurfing: false
 
 # Select which share links to show in posts
 share-links-active:
@@ -70,7 +70,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: 'giselaortt.github.io'
+url-pretty: 'dimitreortt.github.io'
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
