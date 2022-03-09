@@ -1,29 +1,28 @@
 # --- General options --- #
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://giselaortt.github.io"
-baseurl: ""
+url: 'https://dimitreortt.github.io'
+baseurl: ''
 
 # Name of website
-title: "Gisela Ortt"
+title: 'Dimitre Ortt'
 
 # Short description of your site
-description: "Portfolio"
+description: 'Portfolio'
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
-  Blog: "pages/blog"
-  Books: "pages/books"
-  CV: "pages/cv"
-  Studies: "pages/studies"
-  
+  Home: ''
+  Blog: 'pages/blog'
+  Books: 'pages/books'
+  Resume: 'pages/resume'
+  Studies: 'pages/studies'
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/images/profile.png"
+avatar: '/static/images/linkedin.png'
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -34,8 +33,8 @@ avatar: "/images/profile.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: "Gisela Ortt"
-  email: "ms.giselaortt@gmail.com"
+  name: 'Gisela Ortt'
+  email: 'ms.giselaortt@gmail.com'
   github: giselaortt
   linkedin: gisela-ortt-2bb40a196
   instagram: giselaortt
@@ -71,14 +70,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "giselaortt.github.io"
+url-pretty: 'giselaortt.github.io'
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: ""
+disqus: ''
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: ""
+google_analytics: ''
 
 # Google Tag Manager ID
 #gtm: ""
@@ -92,12 +91,12 @@ excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-title-separator: "-"
+title-separator: '-'
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/New_York"
+timezone: 'America/New_York'
 markdown: kramdown
 mathjax: true
 highlighter: rouge
@@ -109,19 +108,17 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
+      layout: 'post'
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
+  - scope:
+      path: '' # all files
     values:
-      layout: "page"
+      layout: 'page'
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
@@ -162,41 +159,41 @@ prose:
     - /js
   metadata:
     _posts:
-      - name: "layout"
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
+          element: 'hidden'
+          value: 'post'
+      - name: 'title'
         field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
+          element: 'text'
+          label: 'Post title'
+          placeholder: 'Title'
           alterable: true
-      - name: "subtitle"
+      - name: 'subtitle'
         field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
+          element: 'textarea'
+          label: 'Subtitle'
+          placeholder: 'A description of your post.'
           alterable: true
-      - name: "date"
+      - name: 'date'
         field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
+          element: 'text'
+          label: 'Date'
+          help: 'Enter date of post.'
+          placeholder: 'yyyy-mm-dd'
           alterable: true
-      - name: "image"
+      - name: 'image'
         field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
+          element: 'text'
+          label: 'Image'
+          help: 'Add a thumbnail image to your post.'
+          placeholder: 'Thumbnail'
           alterable: true
-      - name: "published"
+      - name: 'published'
         field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+          element: 'checkbox'
+          label: 'Publish'
+          help: 'Check to publish post, uncheck to hide.'
 
 gems:
   - jekyll-paginate
@@ -204,4 +201,4 @@ gems:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-theme: 
+theme:
